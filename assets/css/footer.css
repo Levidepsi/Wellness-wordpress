@@ -1,0 +1,233 @@
+/*------------------------------------*\
+    
+    Page Footer CSS
+
+    Page footer...........The main page footer.
+
+\*------------------------------------*/
+
+footer {
+    margin-top: auto; /* used to affix footer at bottom of page */
+    background: #234177;
+    color: #eaeaea;
+    /* margin-top: auto; */
+}
+
+footer .row {
+    display: block !important;
+}
+
+.footer-top {
+    padding: 60px 0 8px;
+    text-align: center;
+}
+
+.footer-right {
+    width: 50%;
+}
+
+.footer-logo a {
+    /* text-decoration: none !important; */
+    padding-bottom: 30px;
+    color: white !important;
+}
+
+.footer-logo a h2 {
+    font-size: 30px;
+}
+
+.footer-logo .synergy-text {
+    color: #4dab48;
+}
+
+.footer-mobile-section {
+    margin-bottom: 50px;
+}
+
+.footer-mobile-section h5 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-email {
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-email input[type=text] {
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: all .4s ease-in-out;
+    background: rgba(100,117,149,.7);
+    border-color: transparent;
+    color: #fff !important;
+    letter-spacing: .5px;
+}
+
+.form-submit {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    height: 100%;
+    width: 50px;
+}
+
+.footer-left-content {
+    display: flex;
+    max-width: 100% !important;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hidden-sm-up {
+    display: block !important;
+}
+
+.social-icon {
+    margin-bottom: 30px;
+}
+
+.social-icon a i {
+    font-size: 20px;
+    background: #4DAB48;
+    padding: 15px;
+    border-radius: 30px;
+    width: 50px;
+    margin-right: 10px;
+    color: white;
+}
+
+.image-cert {
+    text-align: center;
+}
+
+.image-cert .imgone {
+    width: 90px;
+    padding: 5px;
+    height: 78px;
+}
+
+.image-cert .imgtwo {
+    width: 80px;
+    padding: 5px;
+    height: 82px;
+}
+
+.footer-site-information {
+    width: 50%;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+.address h5 i {
+    color: #4dab48;
+}
+
+.footer-site-information p {
+    color: #b9c6db;
+}
+
+.address a {
+    color: #4dab48 !important;
+}
+
+.contact-info span i {
+    color: #4dab48;
+}
+
+.phone {
+    color: #4dab48;
+    transform: rotate(-30deg);
+}
+
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.quick-menu {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.quick-menu h6 { margin-bottom: 10px; }
+
+.footer-navigation .menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    padding-left: 0
+}
+
+.footer-navigation .menu li a {
+    color: white;
+}
+
+.footer-bottom {
+    background: #1e3765;
+    color: #a5afc1 !important;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-bottom .copyright {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.clearfix {
+    width: 80%;
+}
+
+.clearfix li {
+    font-size: 15px;
+    line-height: 1;
+    margin-right: 8px;
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.clearfix li a { color: white; }
+
+.back-to-top { color: white; }
+
+.contact-left {
+    padding-left: 0;
+}
+
+.contact-info { 
+    padding-left: 0;
+}
+
+@media (min-width: 320px) {
+    .footer-left-content { display: block }
+    .footer-right { width: 100%; }
+    .footer-site-information { width: 100% }
+
+    .clearfix{ width: 100%; }
+}
+
+
+@media (min-width: 768px) {
+    .footer-left-content { display: flex }
+}

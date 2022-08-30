@@ -1,0 +1,13 @@
+.google-content {
+  color: #c4c4c4;
+  z-index: 99;
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.google-content a {
+  color: #4dab48 !important; 
+}
+
+.google-content { text-align: center; }
